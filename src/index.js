@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+/*ส่วนของการแสดงผลจะให้index.jsเป็นตัวอ้างอิง
+index.js เป็นไฟล์ที่ช่วยเชื่อมระหว่าง index.html & App.js*/
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
